@@ -80,7 +80,7 @@ export default function AntDefault () {
               Click outside, press escape, or press the button to close (it's focused by default).
             </Paragraph>
             <div className="mt-2">
-              <Button type="danger" onClick={() => setModalIsVisible(false)}>
+              <Button type="default" danger onClick={() => setModalIsVisible(false)}>
                 Close
               </Button>
             </div>
