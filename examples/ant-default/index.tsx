@@ -49,7 +49,10 @@ export default function AntDefault () {
         <div>
           <label>Pick one:</label>
         </div>
-        <Select onChange={value => setSelected(value)}>
+        <Select 
+          defaultValue={selected}
+          onChange={value => setSelected(value)}
+        >
           {products.map(product => 
             <Option
               key={product}
