@@ -5,8 +5,8 @@ module.exports = {
     content: [
       './pages/**/*.html',
       './pages/**/*.tsx',
-      './components/**/*.html',
-      './components/**/*.tsx',
+      './examples/**/*.html',
+      './examples/**/*.tsx',
     ]
   },
   future: {
