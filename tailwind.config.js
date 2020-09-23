@@ -13,5 +13,8 @@ module.exports = {
     purgeLayersByDefault: true,
     removeDeprecatedGapUtilities: true,
   },
-  theme: baleada
+  theme: baleada,
+  plugins: [
+    require('@tailwindcss/custom-forms'),
+  ]
 }
