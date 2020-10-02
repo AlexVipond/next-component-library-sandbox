@@ -1,8 +1,14 @@
 import '../styles/index.css'
 // import 'antd/dist/antd.css'
+import Nav from '../components/Nav'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }) {
+  return (
+    <>
+      <Component {...pageProps} />
+      <Nav />
+    </>
+  )
 }
 
-export default MyApp
+export default App

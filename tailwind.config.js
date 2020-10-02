@@ -11,7 +11,7 @@ function markerNone ({ addUtilities }) {
       }
     }
   })
-}    
+}
 
 module.exports = {
   purge: {
