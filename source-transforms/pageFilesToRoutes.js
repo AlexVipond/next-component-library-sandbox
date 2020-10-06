@@ -15,7 +15,6 @@ module.exports = function pageFilesToRoutes () {
 
   // Log
   console.log(`${routes.length} pages added to nav`)
-  console.log(routes)
 
   return JSON.stringify(routes)
 }
