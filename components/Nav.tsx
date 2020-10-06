@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
+// @ts-ignore
 import routes from 'virtual-routes'
 
 export default function Nav () {
